@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+#header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 16rem;
+    background: #60b2e5;
+}
+#profilePic{
+margin: 3rem;
+    border: 5px solid #53f4ff;
+    border-radius: 50%;
+}
+#profilePic:hover{
+box-shadow: 1rem 1rem 8rem black;
+/*border: 5px solid black;*/
+}
+.h1{
+margin: 1rem;
+}
