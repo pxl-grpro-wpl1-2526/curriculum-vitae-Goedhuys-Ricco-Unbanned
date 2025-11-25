@@ -23,3 +23,24 @@ box-shadow: 0.1rem 0.1rem 5rem black;
 .h1{
 margin: 1rem;
 }
+#languages{
+border-collapse: collapse;
+    border: 0.3rem solid #1E3A5F;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+#languages td{
+    text-align: center;
+    border: 5px solid #1E3A5F;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+#languages td:hover{
+
+}
+#languages tr:nth-child(even){
+    background: #8abeef;
+}
+#languages tr:nth-child(odd){
+    background: #D9E6F2;
+}
