@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
 }
 #header-container{
     display: flex;
@@ -105,6 +106,6 @@ footer p{
     margin: 0.2rem;
     color: white;
 }
-footer button{
+#scrollButton{
 background-color: #8abeef;
 }
