@@ -107,8 +107,10 @@ footer p{
     margin: 0.2rem;
     color: white;
 }
-#scrollButton{
-background-color: #8abeef;
+#scrollbutton{
+background-color: #1E3A5F;
+    color: black;
+    border: 0.2rem solid #8abeef;
 }
 h2{
     margin: 3rem;
@@ -152,7 +154,4 @@ h2{
 }
 #IntroText{
     padding-top: 0.2rem;
-}
-#introduction{
-
 }
