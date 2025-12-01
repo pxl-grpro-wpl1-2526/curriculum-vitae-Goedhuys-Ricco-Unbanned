@@ -90,7 +90,8 @@ p{
     margin: 0.2rem;
 }
 hr{
-    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
  border-bottom: 1rem solid #1E3A5F;
 }
 footer{
@@ -108,4 +109,44 @@ footer p{
 }
 #scrollButton{
 background-color: #8abeef;
+}
+h2{
+    margin: 3rem;
+    padding: 1rem;
+}
+#Education{
+    border-collapse: collapse;
+    border: 0.3rem solid #1E3A5F;
+    padding: 0.4rem;
+    margin: 2rem;
+    height: 30%;
+    width: 30%;
+}
+#Education td{
+    text-align: center;
+    border: 5px solid #1E3A5F;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+#Education:hover{
+    box-shadow: 0.1rem 0.1rem 5rem black;
+    transform: scale(1.1);
+}
+#Education tr:nth-child(even){
+    background: #8abeef;
+}
+#Education tr:nth-child(odd){
+    background: #D9E6F2;
+}.olskills{
+     margin: 1rem;
+     padding: 1rem;
+ }
+.liskills{
+    margin: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.skill{
+    margin: 1rem;
 }
