@@ -160,11 +160,11 @@ h2{
 #IntroText{
     padding-top: 0.2rem;
 }
-@media(min-width: 992px){
+@media(min-width: 576px){
     #workExperience{
         display: contents;
     }
-    #moble-ListDiv{
+    .moble-ListDiv{
         display: none;
     }
 }
@@ -191,11 +191,14 @@ h2{
     #languages {
         display: none;
     }
+    #Education{
+        display: none;
+    }
 
-    #mobile-listDiv {
+    .mobile-listDiv {
         display: block;
     }
-    #mobile-List {
+    .mobile-List {
         margin: 1rem;
         padding-left: 3rem;
     }
